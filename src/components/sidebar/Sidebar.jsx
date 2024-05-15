@@ -14,16 +14,16 @@ const Sidebar = () => {
         <h2>Dashboard</h2>
         <ul className="sidebar__collection">
           <li className="sidebar__item">
-            <NavLink className={"sidebar__link"} to={"create"}>Create Product</NavLink>
+            <NavLink className={"sidebar__link"} to={"manage"}>Products</NavLink>
           </li>
           <li className="sidebar__item">
-            <NavLink className={"sidebar__link"} to={"manage"}>Manage Product</NavLink>
+            <NavLink className={"sidebar__link"} to={"create"}>Users</NavLink>
           </li>
           <li className="sidebar__item">
             <NavLink className={"sidebar__link"} to={"statistic"}>Statistic</NavLink>
           </li>
         </ul>
-        <button onClick={handleLogOut}>Log Out</button>
+        <button className='logout' onClick={handleLogOut}>Log Out</button>
     </div>
   )
 }

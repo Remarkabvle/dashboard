@@ -2,6 +2,7 @@ import React, { memo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "../../api";
+import "./login.scss"
 
 const Login = () => {
   let navigate = useNavigate();

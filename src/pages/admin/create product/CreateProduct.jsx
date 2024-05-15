@@ -1,9 +1,13 @@
 import React from 'react'
 
+
+
 function CreateProduct() {
   return (
     <div>
-      <h1>CreateProduct</h1>
+      <h1 className='home__title'>Users</h1>
+
+
     </div>
   )
 }

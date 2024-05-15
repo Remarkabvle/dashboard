@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header className='header'>
-        <h2>Logo</h2>
+        <h2 className='header__logo'>Logo</h2>
         <NavLink className='header__link' to={"/"}>Home</NavLink>
         <NavLink className='header__link ' to={"/about"}>About</NavLink>
         <NavLink className='header__link ' to={isLogin ? "/admin/create" : "/register"}>{isLogin ? "Account" : "Login"}</NavLink>

@@ -1,0 +1,29 @@
+.header .active {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.header__logo {
+  font-size: 24px;
+  color: #fff;
+}
+
+.header__link {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Navbar.css.map */
